@@ -8,5 +8,32 @@
 .container {
     width: 100%;
     height: 100vh;
-    background: linear-gradient(90deg, rgl(8,8,67),rgb(5,1,18),rgb(8,8,67));
+    /* background: linear-gradient(90deg,rgb(8,8,67),rgb(5,1,18),rgb(8,8,67)); */
 }
+
+.parent {
+    width: 80%;
+    height: 90%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: #230845;
+    box-shadow: 5px 5px 20px black;
+    color: #ffffff;
+
+}
+
+.parent nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 50px;
+    height: 15%;
+    background-color: plum;
+}
+
+
+
+
+
